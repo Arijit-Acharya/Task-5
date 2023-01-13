@@ -1,0 +1,849 @@
+/* General section */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/*Specific Section*/
+/* Navbar Section  */
+.navbar-row {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    display: none;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.collapseable-navbar {
+    margin-left: auto;
+}
+
+.collapseable-navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    padding: 5px 10px;
+}
+
+.collapseable-navbar li a {
+    text-decoration: none;
+    color: black;
+    line-height: 1.7;
+    padding: 40px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.collapseable-navbar li a:hover {
+    color: white;
+    background: linear-gradient(to bottom, #a25cf8, #215dd5)
+}
+
+/* Navbar Toggler icon  */
+.toggler img {
+    height: 20px;
+    margin: 2px;
+}
+
+
+
+
+
+/* Banner section */
+.banner-section-row img {
+    width: 100%;
+}
+
+
+
+/* Feature section */
+.feature-section {
+    margin-top: -105px;
+}
+
+.feature-section-row {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.feature-cols {
+    padding: 0px 15px;
+    width: 25%;
+}
+
+.feature-item {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.item_1 {
+    background: linear-gradient(to bottom, #ffad01, #ff8716)
+}
+
+.item_2 {
+    background: linear-gradient(to bottom, #ac5cfb, #175ed2)
+}
+
+.item_3 {
+    background: linear-gradient(to bottom, #ff2f51, #ff1c95)
+}
+
+.item_4 {
+    background: linear-gradient(to bottom, #fb15e7, #b81ee0)
+}
+
+.feature-item .writting-container {
+    width: 85%;
+}
+
+.arrow-container {
+    width: 15%;
+    position: relative;
+}
+
+.feature-item .writting {
+    padding: 0 10px;
+}
+
+.feature-item .writting h3 {
+    font-size: 40px;
+    margin-block: 5px;
+    font-weight: 400;
+}
+
+.feature-item .writting p {
+    font-size: 20px;
+}
+
+.feature-item .arrow {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* briefing section */
+.briefing-section {
+    margin: 50px 0px;
+}
+
+.briefing-section-row {
+    padding: 10px 15px;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.brief-cols {
+    padding: 0 5px;
+    width: 50%;
+}
+
+
+.brief-cols-row img {
+    width: 100%;
+}
+
+.brief-cols .text {
+    background-color: #f7f7f7;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.brief-cols-row h3 {
+    font-size: 40px;
+    margin-block: 15px;
+}
+
+.brief-cols-row p {
+    color: #606060;
+    font-size: 20px;
+}
+
+.brief-cols-row .read-more {
+    text-decoration: none;
+    background: linear-gradient(to right, #ff8901, #ff314f);
+    line-height: 1.7;
+    padding: 15px 40px;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto 0 0;
+}
+
+.read-more:hover {
+    color: #ff314f;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rating section*/
+
+.rating-section {
+    position: relative;
+    margin: 50px 0;
+}
+
+.rating-section .container img {
+    width: 100%;
+}
+
+.rating-section-row {
+
+    background: url("Images/swimming-bg1.jpg") center no-repeat;
+}
+
+.rating-inner-container {
+    background-color: #de1281;
+    border: 2px solid #de1281;
+    width: 525px;
+    margin: 0 50px;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rating-section-row h3 {
+    font-size: 40px;
+}
+
+.rating-section-row p {
+    font-size: 20px;
+}
+
+.rating-section-row a {
+    padding: 30px 10px;
+    margin: 10px 0;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+/* Event section */
+.event-section {
+    margin: 50px 0px;
+}
+
+.event-section-row {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-cols {
+    padding: 0 15px;
+    width: 50%;
+}
+
+.event-cols .text-row {
+    background: linear-gradient(to bottom, #ffb516, #ff8001);
+    padding: 10px 25px;
+    color: white;
+}
+
+.text-row ul li {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-row .point {
+    padding: 10px 5px;
+}
+
+.text-row .point .material-symbols-outlined {
+    rotate: 90deg;
+    font-size: 40px;
+}
+
+.event-cols .text-row h3 {
+    font-size: 40px;
+    margin-block: 10px;
+}
+
+.event-cols .event-item {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.event-cols-row img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* testimonial section */
+
+.testimonial-section-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial-cols {
+    width: 25%;
+}
+
+.testimonial-cols-row {
+    padding: 15px;
+}
+
+
+
+.testimonial-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+}
+
+.testimonial-image img {
+    border-radius: 50%;
+}
+
+
+.testimonial-text {
+    border: 2px solid #f3f3f3;
+    background-color: #f3f3f3;
+    padding: 0 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-text p {
+    font-size: 20px;
+}
+
+
+
+.testimonial-text h4 {
+    color: #fb6810;
+    font-size: 25px;
+    margin-block: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact section */
+
+.contact-section {
+    margin: 50px 0px;
+}
+
+.contact-section-row {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-cols {
+    padding: 0 15px;
+    width: 50%;
+}
+
+.contact-cols .c-row1 {
+    background: linear-gradient(to bottom, #0199e2, #017cc9);
+    color: white;
+    padding: 5px 30px;
+}
+
+.contact-cols .c-row1 h3 {
+    font-size: 40px;
+}
+
+.c-row1 .address {
+    font-size: 20px;
+    padding-right: 150px;
+}
+
+div.contact-cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-cols .round {
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.contact-cols-row .number {
+    font-size: 40px;
+    margin-block: 15px;
+}
+
+.contact-cols-row .Email {
+    font-size: 20px;
+}
+
+
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_iframe {
+    height: 400px !important;
+}
+
+
+
+
+
+/* Footer section */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(114, 112, 112);
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+/* media queries section */
+@media(max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+
+    .collapseable-navbar {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .testimonial-text {
+        padding: 50px 25px 0px 25px;
+    }
+
+    .testimonial-image {
+        padding: 0 8px;
+    }
+
+    .testimonial-text p {
+        font-size: 20px;
+    }
+
+    .trow3 h4 {
+        padding-top: 20px;
+
+    }
+
+    .event-cols .event-item {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    .event-cols .text-row {
+        padding: 0px 25px;
+        height: 100%;
+    }
+
+    .event-cols .text-row h3 {
+        font-size: 40px;
+        margin-block: 0px;
+    }
+
+    .text-row ul {
+        margin-block: 0px;
+        padding-inline-start: 0;
+    }
+
+    .footer {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:992px) {
+    .feature-cols {
+        width: 50%;
+        padding: 10px 15px;
+    }
+
+    .feature-item {
+        height: 100%;
+    }
+
+    .feature-item .writting h3 {
+        font-size: 30px;
+    }
+
+
+    .feature-item .writting p {
+        font-size: 15px;
+    }
+
+    .rating-section-row h3 {
+        font-size: 30px;
+    }
+
+    .rating-section-row p {
+        font-size: 15px;
+    }
+
+    .rating-section-row a {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+
+    .event-cols .text-row h3 {
+        font-size: 30px;
+        margin-block: 5px;
+        padding: 15px 0;
+    }
+
+    .text-row .point .material-symbols-outlined {
+        font-size: 30px;
+    }
+
+    .event-cols .event-item {
+        font-size: 15px;
+    }
+
+    .arrow-container {
+        padding-top: 145px;
+    }
+
+    .brief-cols-row h3 {
+        font-size: 30px;
+    }
+
+    .brief-cols-row p {
+        font-size: 15px;
+    }
+
+    .brief-cols-row .read-more {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .testimonial-cols {
+        width: 50%;
+    }
+
+    .event-cols {
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+    .event-cols .event-item {
+        font-size: 25px;
+        padding: 5px 10px;
+    }
+
+    .testimonial-text {
+        padding: 0 56px;
+        padding-top: 50px;
+    }
+
+    .testimonial-text h4 {
+        font-size: 20px;
+    }
+
+    .trow4 .testimonial-text {
+        padding: 70px 40px 0 40px;
+    }
+
+    .testimonial-text p {
+        font-size: 15px;
+    }
+
+    .contact-cols .c-row1 h3 {
+        font-size: 30px;
+    }
+
+    .contact-cols {
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+    .c-row1 .address {
+        font-size: 15px;
+    }
+
+    .contact-cols-row .number {
+        font-size: 30px;
+    }
+
+    .contact-cols-row .Email {
+        font-size: 15px;
+    }
+
+    .contact-cols-round {
+        height: 40px;
+        width: 40px;
+    }
+
+    .footer {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:767px) {
+    .feature-item .writting h3 {
+        font-size: 25px;
+    }
+
+    .brief-cols {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .row2 {
+        flex-direction: column-reverse;
+    }
+
+    .brief-cols-row h3 {
+        font-size: 25px;
+        margin-block: 10px;
+    }
+
+    .brief-cols-row p {
+        margin-block: 15px;
+    }
+
+    .brief-cols .text {
+        padding: 20px 10px;
+    }
+
+    .brief-cols-row .read-more {
+        padding: 5px 10px;
+    }
+
+    .rating-inner-container {
+        width: 400px;
+    }
+
+    .rating-section-row a {
+        padding: 15px 5px;
+        width: 140px;
+    }
+
+    .rating-section-row h3 {
+        font-size: 25px;
+    }
+
+    .event-cols .text-row h3 {
+        font-size: 25px;
+    }
+
+    .event-cols .event-item {
+        font-size: 15px;
+    }
+
+    .text-row .point .material-symbols-outlined {
+        font-size: 25px;
+    }
+
+    .testimonial-cols {
+        width: 100%;
+    }
+
+    .contact-cols .c-row1 h3 {
+        font-size: 25px;
+    }
+
+    .contact-cols-row .number {
+        font-size: 25px;
+    }
+
+    .contact-cols .round {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:567px) {
+    .navbar-brand {
+        margin-right: 10px;
+        padding: 5px;
+    }
+
+    .navbar-brand img {
+        width: 70%;
+    }
+
+    .feature-cols {
+        width: 100%;
+    }
+
+    .feature-item .arrow {
+        padding: 7px;
+    }
+
+    .brief-cols {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+    .row1,
+    .row2 {
+        padding: 5px 0px;
+    }
+
+    .row2 {
+        flex-direction: column-reverse;
+    }
+
+    .brief-cols-row img {
+        margin: 5px 0px;
+    }
+
+
+    .brief-cols-row .read-more {
+        padding: 8px 10px;
+        margin-bottom: 10px;
+    }
+
+    .rating-inner-container {
+        width: 275px;
+    }
+
+    .rating-section-row a {
+        padding: 15px 10px;
+        width: 100px;
+        margin: 5px 0;
+    }
+
+    .event-cols .text-row {
+        padding: 0 2px;
+    }
+
+    .text-row .point {
+        padding: 5px;
+    }
+
+    .contact-section {
+        margin: 25px 0;
+    }
+
+    .c-row1 .address {
+        padding-right: 55px;
+    }
+
+    .footer {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+}
